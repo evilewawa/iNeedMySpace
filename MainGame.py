@@ -332,11 +332,11 @@ while (running):
         screen.blit(label, (300, 200))
     else:
         text = "Try to move the avatars to the opposite sides of the map"
-        text2 = "if it is not possible, just restart"
+        text2 = "if it is not possible, just restart. Controls: wasd for red, arrows for blue"
         label = font2.render(text,1,white)
         screen.blit(label,(50,25))
         label2 = font2.render(text2,1,white)
-        screen.blit(label2,(125,60))
+        screen.blit(label2,(100,60))
     avatar.speed = 2
     avatar2.speed = 2
     drawEverything(platforms, avatar,avatar2)
